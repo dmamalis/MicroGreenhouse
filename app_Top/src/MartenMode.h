@@ -1,0 +1,55 @@
+/*
+ * MartenMode.h
+ *
+ *  Created on: Aug 13, 2013
+ *      Author: dimitris
+ */
+
+#ifndef MARTENMODE_H_
+#define MARTENMODE_H_
+
+
+int martenmode[]={
+	PUMP_ON, 		20,
+	WATER_V_ON,		15,
+	WATER_V_OFF,
+	DRAIN_V_ON,		15,
+	DRAIN_V_OFF,
+	NUTRIENT_V_ON,	15,
+	NUTRIENT_V_OFF,
+	FERTIGATE_V_ON,	15,
+	FERTIGATE_V_OFF,
+	WASTE_V_ON,		2,
+	WASTE_V_OFF,
+	PUMP_OFF,		10,
+	//AIR TEST
+	SERVOS_OFF,
+	FAN_ON_FULL,	20,
+	FAN_ON_MIN,
+	CONDENSER_ON,	10,
+					10,
+					10,
+	CONDENSER_OFF,
+	FAN_ON_FULL,
+	HEATER_ON,		10,
+					10,
+					10,
+					10,
+	HEATER_OFF,
+	SERVOS_ON,		10,
+					10,
+	//LIGHT TEST
+	LEDS_OFF,		5,
+	PLAY_CUSTOM,	5,
+	BLINK_ONE_BLUE,	5,
+	PLAY_CUSTOM,	5,
+	BLINK_ONE_RED,	5,
+	PLAY_CUSTOM,	5,
+	BLINK_BLUE,		5,
+	PLAY_CUSTOM,	5,
+	BLINK_RED,		5,
+	PLAY_CUSTOM,
+	0xff
+	};
+
+#endif /* MARTENMODE_H_ */
